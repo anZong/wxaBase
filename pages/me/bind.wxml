@@ -1,0 +1,17 @@
+<!--pages/me/bind.wxml-->
+<view class="container">
+    <form class="cells" bindsubmit="formSubmit" bindreset="formReset">
+        <view class="wrap">
+            <text>手机号码：</text>
+            <input id="phone" name="phone" type="number" value="18288907535" onblur="getPhone"/>
+        </view>
+        <view class="wrap">
+            <text style="flex-shrink:0">验证码：</text>
+            <input id="phoneverify" name="phoneverify" type="number" onblur="getVerify" value="888888"/>
+            <button id="sendverify" size="mini" bindtap="sendVerify" type="warn" plain='true' style="padding:0 10rpx;flex-shrink:0">验证码</button>
+        </view>
+        <view class="wrap">
+            <button id="submit" formType="submit" type="primary">现在绑定</button>
+        </view>
+    </form>
+</view>

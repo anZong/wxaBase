@@ -1,0 +1,25 @@
+<!--pages/me/setting.wxml-->
+<view class="container">
+    <form class="cells" bindsubmit="submit">
+        <view class="cell">
+            <text>头像</text>
+            <view data-url="{{user.icon}}" bindtap="popSelect" style="width:80%;text-align:center">
+                <image class="avator" src="{{user.icon || ''}}"></image>
+            </view>
+            <input name="icon" value="{{user.icon || ''}}" hidden="true"/>
+        </view>
+        <view class="cell">
+            <text>昵称</text>
+            <input name="name" value="{{user.name || '小程序用户'}}" />
+        </view>
+        <view class="cell">
+            <text>手机号码</text>
+            <input name="phone" value="{{user.phone  || ''}}" disabled="true"/>
+        </view>
+        <view class="cell">
+            <text>邮箱</text>
+            <input name="email" value="{{user.email || ''}}" />
+        </view>
+         <button form-type="submit" class="save" type="primary">保存</button>
+    </form>
+</view>

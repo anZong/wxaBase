@@ -1,0 +1,18 @@
+<!--
+    list:[{id,img,title,intro,time}]
+  -->
+<template name="list">
+    <view class="_list_wrap" wx:if="{{wxListData}}">
+        <block wx:for="{{wxListData}}" wx:key="{{item.id}}">
+            <view class="_list_item" data-id="{{item.id}}" bindtap="handleTap">
+                <image class="image" src="{{item.img}}"></image>
+                <view class="right">
+                    <text class="title">{{item.title}}</text>
+                    <text class="intro">{{item.intro}}</text>
+                    <text class="time">{{item.created.date}}</text>
+                </view>
+            </view>
+        </block>
+    </view>
+    <text class="loadmore" wx:if="{{hasMore === false}}">----没有更多了----</text>
+</template>

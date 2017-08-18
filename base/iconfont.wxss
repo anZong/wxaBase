@@ -1,0 +1,26 @@
+/* iconfont  */
+@font-face {font-family: "iconfont";
+  src: url('//at.alicdn.com/t/font_374218_e52m0d60uhrrudi.eot?t=1502346436864'); /* IE9*/
+  src: url('//at.alicdn.com/t/font_374218_e52m0d60uhrrudi.eot?t=1502346436864#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/font_374218_e52m0d60uhrrudi.woff?t=1502346436864') format('woff'), /* chrome, firefox */
+  url('//at.alicdn.com/t/font_374218_e52m0d60uhrrudi.ttf?t=1502346436864') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/font_374218_e52m0d60uhrrudi.svg?t=1502346436864#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:32rpx;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ruanjian:before { content: "\e6dc"; }
+
+.icon-shouye:before { content: "\e6c7"; }
+
+.icon-arrow_right:before { content: "\e605"; }
+
+.icon-news_icon:before { content: "\e667"; }
+
+.icon-soft:before { content: "\e603"; }

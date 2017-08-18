@@ -1,0 +1,9 @@
+/* pages/api/api.wxss */
+.apis{
+    height: 70vh;
+}
+.console{
+    width: 100vw;
+    height: 30vh;
+    background: white;
+}

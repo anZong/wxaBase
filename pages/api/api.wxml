@@ -1,0 +1,10 @@
+<!--pages/api/api.wxml-->
+<view class="container">
+    <scroll-view scroll-y class="apis">
+        <button bindtap="getLocation">获取当前位置</button>
+    </scroll-view>
+    <scroll-view scroll-y class="console">
+        <text style="display:block">输出:</text>
+        <textarea value="{{content}}" maxlength="-1"/>
+    </scroll-view>
+</view>

@@ -1,0 +1,5 @@
+<!--pages/news/news.wxml-->
+<import src="../../components/wxList/wxList.wxml"/>
+<view class="container">
+    <template is="list" data="{{wxListData:_listData}}"></template>
+</view>

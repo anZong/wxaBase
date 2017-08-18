@@ -1,0 +1,63 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/me/me",
+        "pages/me/bind",
+        "pages/me/setting",
+        "pages/message/message",
+        "pages/news/news",
+        "pages/shopcart/shopcart",
+        "pages/api/api"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarTitleText": "WeChat",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black",
+        "enablePullDownRefresh": true
+    },
+    "tabBar": {
+        "backgroundColor": "#ffffff",
+        "color": "#8a8a8a",
+        "selectedColor": "#0cac08",
+        "list": [
+            {
+                "pagePath": "pages/api/api",
+                "text": "消息",
+                "iconPath": "img/msg.png",
+                "selectedIconPath": "img/msg_on.png"
+            },
+            {
+                "pagePath": "pages/news/news",
+                "text": "新闻",
+                "iconPath": "img/news.png",
+                "selectedIconPath": "img/news_on.png"
+            },
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "img/index.png",
+                "selectedIconPath": "img/index_on.png"
+            },
+            {
+                "pagePath": "pages/shopcart/shopcart",
+                "text": "购物车",
+                "iconPath": "img/shopcart.png",
+                "selectedIconPath": "img/shopcart_on.png"
+            },
+            {
+                "pagePath": "pages/me/me",
+                "text": "个人中心",
+                "iconPath": "img/me.png",
+                "selectedIconPath": "img/me_on.png"
+            }
+        ]
+    },
+    "networkTimeout": {
+      "request": 10000,
+      "connectSocket": 20000,
+      "uploadFile": 20000,
+      "downloadFile": 20000
+    },
+    "debug":true
+}

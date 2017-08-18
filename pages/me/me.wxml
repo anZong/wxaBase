@@ -1,0 +1,12 @@
+<!--pages/me/me.wxml-->
+<view class="container">
+    <view class="userinfo cells" bindtap="setUserInfo">
+        <view class="cell cell_access">
+            <image class="avator" src="{{user.icon}}" data-url="{{user.icon}}" catchtap="previewImage" />
+            <view class="userinfo_center">
+                <text class="title">{{user.name}}</text>
+                <text class="subtitle">会员号：{{user.code}}</text>
+            </view>
+        </view>
+    </view>
+</view>

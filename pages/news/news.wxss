@@ -1,0 +1,2 @@
+/* pages/news/news.wxss */
+@import '../../components/wxList/wxList.wxss'

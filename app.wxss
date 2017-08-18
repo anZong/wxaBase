@@ -1,0 +1,74 @@
+/**app.wxss**/
+@import "base/iconfont.wxss";
+page{
+    background: #f2f2f2;
+}
+
+.container {
+  font-family: "微软雅黑", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+} 
+
+.wrap{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    padding: 10rpx;
+}
+
+input{
+    border: 1px solid #e5e5e5;
+    padding: 5rpx;
+    border-radius: 8rpx;
+}
+
+input[disabled]{
+    color: #ddd;
+}
+
+button{
+    font-size: 32rpx;
+    padding:6rpx 80rpx;
+}
+
+.title{
+    font-size:36rpx;
+}
+.subtitle{
+    font-size: 28rpx;
+}
+.cells{
+    display: flex;
+    flex-direction: column;
+    margin: 20rpx 0;
+    padding: 20rpx;
+    background: white;
+}
+.cell{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f2f2f2;
+    padding: 20rpx 0;
+}
+.cell:last-child{
+    border: none;
+}
+.cell_access:after{
+    content:'\e605';
+    font-family: 'iconfont'!important;
+    font-size:32rpx;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.avator{
+    width: 160rpx;
+    height: 160rpx;
+    border-radius: 100rpx;
+    flex-shrink: 0
+}

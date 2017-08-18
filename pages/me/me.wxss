@@ -1,0 +1,11 @@
+/* pages/me/me.wxss */
+.userinfo .userinfo_center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    padding: 0 20rpx;
+}
+.title,subtitle{
+    margin: 10rpx;
+}

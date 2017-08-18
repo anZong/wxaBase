@@ -1,0 +1,16 @@
+/* pages/me/bind.wxss */
+.wrap{
+    margin:50rpx auto;
+}
+.wrap text{
+    font-size: 32rpx;
+    flex-shrink: 0;
+    width: 200rpx;
+    text-align: right;
+}
+#sendverify{
+    margin-left: 10rpx;
+}
+#submit{
+    font-size: 30rpx;
+}

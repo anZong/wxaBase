@@ -1,0 +1,20 @@
+<!--login.wxml-->
+ <template name="login"> 
+    <view class="__lgpanel_mask" hidden="{{isHide}}">
+        <view class="__lgpanel">
+            <view class="__lgpanel_title">登录</view>
+            <view class="__lgpanel_username">
+                <text>用户名：</text>
+                <input type="number" value="{{phone}}" />
+            </view>
+            <view class="__lgpanel_pwd">
+                <text>密码：</text>
+                <input type="number" value="{{password}}"/>
+            </view>
+            <view class="__lgpanel_login">
+                <button size="mini" type="primary" bindtap="ok">确定</button>
+                <button size="mini" type="warn" bindtap="cancel">取消</button>
+            </view>
+        </view>
+    </view>
+ </template> 
