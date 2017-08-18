@@ -8,7 +8,7 @@ Page({
         this._list = new wxList()
         this._list.initList({
             bindName:'_listData',
-            apiname:'/api/getModelList',
+            apiname:'/api/getNewsList',
             param:{id:99}
         })
     },

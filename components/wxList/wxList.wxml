@@ -14,5 +14,5 @@
             </view>
         </block>
     </view>
-    <text class="loadmore" wx:if="{{hasMore === false}}">----没有更多了----</text>
+    <text class="loadmore" wx:if="{{!hasMore}}">----没有更多了----</text>
 </template>
